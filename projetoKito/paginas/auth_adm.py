@@ -3,7 +3,7 @@ import yaml
 from yaml.loader import SafeLoader
 
 def auth_admin():
-    with open('config/config.yaml') as file:
+    with open('config.yaml') as file:
         config = yaml.load(file, Loader=SafeLoader)
 
 
